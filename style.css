@@ -1,0 +1,520 @@
+*{
+    margin: 0;
+    padding: 0;  
+    }
+    
+    nav{
+     margin: 0;
+     padding: 0;
+     font-family: 'Skranji', cursive;
+     background-color: rgb(220, 153, 60);
+    }
+    nav h1{
+        font-size: 80px;
+        padding-top: 10px;
+    }
+    #section1 h1{
+        font-size: 55px;
+        font-family: 'Josefin Sans', sans-serif;
+        
+    
+    
+    }
+    #section1{
+        background-color: rgb(236, 208, 118);
+        padding-top: 30px;
+        height:300px;
+    }
+    #clinical{
+        width: 500px;
+        border-width: 2;
+    }
+    #sectiona{
+        background-color: rgb(236, 208, 118);
+        margin-top: -50px;
+        text-align: center;
+
+
+    }
+    
+    #sectiona p{
+        text-align: center;
+    }
+    #section2{
+        background-color: rgb(236, 208, 118);
+        margin: 0;
+        padding: 0;
+        height: 600px;
+    }
+    #section2 p{
+        font-size: 18px;
+        text-align: justify;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin: 20px;
+    
+    }
+    #section2 h1{
+        font-family: 'Shadows Into Light', cursive;
+        text-align: center;
+        padding-top: 20px;
+        font-family: 'Shadows Into Light', cursive;
+        font-size: 50px;
+        top: 0;
+        font-weight: bolder;
+        color: rgb(48, 31, 19);
+        text-shadow: 2px 3px 4px black;
+    }
+    #section2 li{
+        font-size: 16px;
+        text-align: justify;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin: 20px;
+    }
+    #section3{
+        background-color: rgb(236, 208, 118);
+    
+    
+    }
+    #section3 h1{
+        font-family: 'Shadows Into Light', cursive;
+        text-align: center;
+        padding-top: 20px;
+        font-family: 'Shadows Into Light', cursive;
+        font-size:50px;
+        top: 0;
+        font-weight: bolder;
+        color: rgb(48, 31, 19);
+        text-shadow: 2px 3px 4px black;
+    }
+    .col-4 img{
+        width: 250px;
+        height: 250px;
+        border-radius: 15px;
+        margin-left: 180px;
+    }
+    .col-8 p{
+        margin-left: 10%;
+        margin-right: 10%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 20px;
+        text-align: justify;
+        margin: 100px;
+        margin-top: 25px;
+        margin-right: 180px;
+    }
+    .col-8 #donut{
+        margin-left: 180px;
+    
+    }
+    .col-8 h3{
+        margin-left:60px; font-size: 25px;
+        margin-top: 20px;
+    }
+    #dimg{
+        margin-left: 50px;
+    }
+    #section4{
+        background-color: rgb(236, 208, 118);
+    }
+    #section5{
+        background-color: rgb(236, 208, 118);
+        height: 520px;
+    
+    }
+    #section5  h1{
+        font-family: 'Shadows Into Light', cursive;
+        text-align: center;
+        padding-top: 20px;
+        font-family: 'Shadows Into Light', cursive;
+        font-size: 50px;
+        top: 0;
+        font-weight: bolder;
+        color: rgb(48, 31, 19);
+        text-shadow: 2px 3px 4px black;
+     
+    }
+    h3{
+        font-family: 'Shadows Into Light', cursive; text-align: center;
+                padding-top: 20px;
+                font-family: 'Shadows Into Light', cursive;
+                font-size: 50px;
+                top: 0;
+                font-weight: bolder;
+                color: rgb(48, 31, 19);
+                text-shadow: 2px 3px 4px black;
+    }
+    #col2{
+        margin-top:15px ;
+    }
+    #col3{
+        margin-top:15px ;
+
+    }
+    #label1{
+        margin-left: -4px;
+    }
+    #label2{
+        margin-left: -4px;
+    }
+    #label3{
+        margin-left: 30px;
+
+    }
+    #name{
+        width: 300px ; margin-right: 24px;border-radius: 5px;
+    }
+    #mail{
+        width: 300px ;border-radius: 5px;
+    }
+    #qu{
+        width: 300px ;border-radius: 5px;
+    }
+    #section4 h1{
+        font-family: 'Shadows Into Light', cursive;
+        text-align: center;
+        padding-top: 20px;
+        font-family: 'Shadows Into Light', cursive;
+        font-size: 50px;
+        top: 0;
+        font-weight: bolder;
+        color: rgb(48, 31, 19);
+        text-shadow: 2px 3px 4px black;
+    
+    }
+    
+    #row1{
+        background-color: rgb(220, 153, 60);
+        display: flex;
+        width: 100%;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        
+    }
+    #gallery img{
+        margin: 10px;
+        width: 250px;
+        height: 250px;
+        border-radius: 10px;
+        margin-left: 150px;
+        margin-top: 15px;
+    }
+    #gallery img:hover{
+        width: 250px;
+        height: 250px;
+        transition: .6s;
+        border-radius: 8px;
+        box-shadow: 0 0 20px rgb(0, 0, 0);
+    }
+    
+    #gallerya img{
+        margin: 10px;
+        width: 250px;
+        height: 250px;
+        border-radius: 10px;
+        margin-left:80px;
+        margin-top: 15px;
+    
+    }
+    #gallerya img:hover{
+        width: 250px;
+        height: 250px;
+        transition: .6s;
+        border-radius: 8px;
+        box-shadow: 0 0 20px rgb(0, 0, 0);
+    }
+    #galleryb img{
+        margin: 10px;
+        width: 250px;
+        height: 250px;
+        border-radius: 10px;
+        margin-right: 100px;
+        margin-top: 15px;
+    
+    }
+    #galleryb img:hover{
+        width: 250px;
+        height: 250px;
+        transition: .6s;
+        border-radius: 8px;
+        box-shadow: 0 0 20px rgb(0, 0, 0);
+    
+    }
+    #gallery{
+        align-items: center;
+    flex-direction: row;
+    margin-left: 10%;
+    }
+    
+    #container{
+        width: 100%;
+    }
+    .form1{
+        width: 700px;
+        margin-left: 30px;
+     
+    }
+    #container{
+        background-color: rgb(220, 153, 60);
+    
+    }
+    #btn{
+        width: 80px;
+        height: 35px;
+        background-color: rgb(92, 53, 26);
+        color: rgb(255, 255, 255);
+        border-radius: 5px;
+        font-size: 20px;
+    }
+    #btn:hover{
+        width: 80px;
+        height: 35px;
+        background-color: rgb(220, 153, 60);
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        transition: .6s;
+        box-shadow: 0 0 15px rgb(0, 0, 0);
+    }
+    #btn1{
+        margin-right: 205px;
+        padding-top: 20px;
+    }
+    #ZZ{
+        background-color: rgb(213, 198, 146);
+    
+    
+    }
+    #IMG2{
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+    
+    #Q1{
+        margin-left: 100px;
+        
+    }
+    #Q12{
+        margin-left: 70px;
+        margin-right: 20px;
+        
+    }
+    #AAAA{
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-left: 70px;
+    
+    }
+    #AAAA:hover{
+        color: azure;
+    }
+    #RR{
+        background-color: rgb(255, 255, 255);
+    }
+
+
+    @media screen and (max-width:400px){
+        nav{
+            width: 400px;
+            height:70px;
+        }
+        nav h1{
+            font-size: 30px;
+        }
+        nav p{
+            font-size: 10px;
+            margin-top: -10px;
+        }
+        #section1 {
+            width: 400px;
+            height: 100px;
+        }
+        #section1 h1{
+            font-size: 20px;
+        }
+        #section1 p{
+            font-size: 20px;
+           
+        } 
+        #sectiona{
+            width: 400px;
+        }
+        #sectiona .container{
+            height: 200px;
+          
+        
+        }
+        #sectiona .container h5{
+font-size: 10px;
+            width: 200px;
+            padding-right: 30px;
+            padding-top: 10px;
+            
+            
+
+        }
+        
+       
+        #section2 h1{
+            font-size: 20px;
+        }
+        #section2 p{
+            font-size: 10px;
+        }
+        #section2 ul li{
+            font-size: 10px;
+            margin-left: -10px;
+        }
+        #section2{
+            width: 400px;
+            height: 700px;
+        }
+        #section3{
+            width: 400px;
+        }
+        #section3 h1 {
+            font-size: 20px;
+            /* margin-top: 10px; */
+            
+        }
+        #section3 h3{
+            font-size: 10px;
+            margin-left: 100px;
+        }
+        #section3 img{
+            width: 100px;
+            height: 100px; margin-top: 60px;
+        }
+
+        #section3 .row{
+            margin-left: -150px;
+        }
+        #section3 p{
+            font-size: 10px;
+            width: 200px;
+            margin-bottom: 10px;
+        }
+        #section4{
+            width: 400px;
+        }
+        #section4 h1{
+            font-size: 20px;
+        }
+        #row1{
+           margin-left: 1px;
+        }
+         #gallery img{
+            width:80px;
+            height: 80px;
+            margin-left: 10px;
+        }
+        #gallerya img{
+            width:80px;
+            height: 80px;
+            margin-left: 10px;
+        }
+        #galleryb img{
+            width:80px;
+            height: 80px;
+            margin-left:50p ;
+            
+        }
+        #section5{
+            width: 400px;
+        }
+        #section5 h1{
+            font-size: 20px;
+        }
+         #container{
+            height: 300px;
+            width: 500px;
+        }
+        #container1{
+            margin-left: -30px;
+        }
+        #label1{
+          /* font-size:20px; */
+          margin-left: -20px;
+        }
+        #name{
+            width: 200px;
+            margin-left: 60px;
+         
+        }
+        #mail{
+            width: 200px;
+            margin-left: 60px;
+
+        }
+        #qu{
+            width: 200px;
+            margin-left: 60px;
+            margin-top: -20px;
+
+        }
+        #col1{
+            margin-top: -30px;
+        }
+        #col2{
+            margin-top: -30px;
+
+        }
+        #col3{
+            margin-top: -50px;
+
+        }
+        #label2{
+            margin-left: -20px;
+  
+        }
+        #label3{
+            margin-left: -20px;
+            margin-top: 70px;
+  
+        }
+         #ZZ{
+width: 400px;
+
+        }
+           h3{
+            font-size: 20px;
+           }
+           #IMG2{
+            width: 100px;
+            height: 100px;
+            margin-left: 20px;
+           }
+           #Q1{
+                margin-left: 10px;
+           }
+           #Q12{
+            margin-left: 10px;
+           }
+           #AAAA{
+            margin-left: -120px;
+           }
+           #gallery img:hover{
+            width: 80px;
+            height: 80px;
+            transition: .6s;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgb(0, 0, 0);
+        }
+        #gallerya img:hover{
+            width: 80px;
+            height: 80px;
+            transition: .6s;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgb(0, 0, 0);
+        }
+        #galleryb img:hover{
+            width: 80px;
+            height: 80px;
+            transition: .6s;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgb(0, 0, 0);
+        
+        }
+        
+        
+    }
